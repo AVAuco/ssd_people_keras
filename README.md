@@ -29,7 +29,7 @@ This model relies on the Keras implementation of Single-Shot Multibox Detector b
 ## Software requirements
 In order to run [demo.py](https://github.com/AVAuco/ssd_people_keras/blob/master/demo.py):
 * Python packages: numpy, imageio, matplotlib, keras.
-* [Keras SSD-512 implementation](https://github.com/pierluigiferrari/ssd_keras):
+* [Keras SSD implementation](https://github.com/pierluigiferrari/ssd_keras):
   * models/ssd512.py
   * bounding_box_utils
   * keras_layers
@@ -37,7 +37,7 @@ In order to run [demo.py](https://github.com/AVAuco/ssd_people_keras/blob/master
 In order to use [convert_ssd_512.py](https://github.com/AVAuco/ssd_people_keras/blob/master/convert_ssd_512.py):
 * Python packages: numpy, pandas, keras, scipy.
 * [loadmat_stackoverflow.py](https://github.com/AVAuco/ssd_people_keras/blob/master/loadmat_stackoverflow.py), code obtained from [here](https://stackoverflow.com/a/8832212) (accessed on April 11, 2019).
-* [Keras SSD-512 implementation](https://github.com/pierluigiferrari/ssd_keras):
+* [Keras SSD implementation](https://github.com/pierluigiferrari/ssd_keras):
   * models/ssd512.py
   * bounding_box_utils
   * keras_layers
