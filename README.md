@@ -9,6 +9,7 @@ This model relies on the Keras implementation of Single-Shot Multibox Detector b
 ## Notes
 * In order to use this model, you **MUST** import models/keras_ssd512.py, bounding_box_utils and keras_layers from its [repository](https://github.com/pierluigiferrari/ssd_keras).
 * Because of the size of the converted model, to clone the repository [git-lfs](https://git-lfs.github.com/) is needed; the model can also be converted from the original MatConvNet model using convert_ssd_512.py. 
+  
   Instructions for setting up git-lfs alongside git (from ssd_people [repository](https://github.com/AVAuco/ssd_people)):
   
   ```
