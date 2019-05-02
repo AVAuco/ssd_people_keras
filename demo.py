@@ -32,7 +32,7 @@ y_pred = model.predict(input_images)
 
 # Setting confidence threshold and filtering detections.
 
-confidence_threshold = 0.25
+confidence_threshold = 0.5
 
 y_pred_thresh = [y_pred[k][y_pred[k, :, 1] > confidence_threshold] for k in range(y_pred.shape[0])]
 
