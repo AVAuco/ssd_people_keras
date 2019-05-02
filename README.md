@@ -23,20 +23,20 @@ This model relies on the Keras implementation of Single-Shot Multibox Detector b
       git clone https://github.com/AVAuco/ssd_people_keras.git (HTTPS)
       git clone git@github.com:AVAuco/ssd_people_keras.git (SSH)
   ```
-* Script convert_ssd_512.py may be able to convert other SSD-512 models, provided they use the same MatConvNet toolbox used in the [original work](https://github.com/AVAuco/ssd_people). Slight modifications to the script and the layer mapping (layers.csv) could make possible to convert also SSD-256 models.
+* Script [convert_ssd_512.py](https://github.com/AVAuco/ssd_people_keras/blob/master/convert_ssd_512.py) may be able to convert other SSD-512 models, provided they use the same MatConvNet toolbox used in the [original work](https://github.com/AVAuco/ssd_people). Slight modifications to the script and the layer mapping ([layers.csv](https://github.com/AVAuco/ssd_people_keras/blob/master/layers.csv)) could make possible to convert also SSD-256 models.
 * Detections using the converted model could not match detections obtained with the original MatConvNet implementation. Adjusting confidence threshold should improve performance.
 
 ## Software requirements
-In order to run demo.py:
+In order to run [demo.py](https://github.com/AVAuco/ssd_people_keras/blob/master/demo.py):
 * Python packages: numpy, imageio, matplotlib, keras.
 * [Keras SSD-512 implementation](https://github.com/pierluigiferrari/ssd_keras):
   * models/ssd512.py
   * bounding_box_utils
   * keras_layers
 
-In order to use convert_ssd_512.py:
+In order to use [convert_ssd_512.py](https://github.com/AVAuco/ssd_people_keras/blob/master/convert_ssd_512.py):
 * Python packages: numpy, pandas, keras, scipy.
-* loadmat_stackoverflow.py, code obtained from [here](https://stackoverflow.com/a/8832212) (accessed on April 11, 2019).
+* [loadmat_stackoverflow.py](https://github.com/AVAuco/ssd_people_keras/blob/master/loadmat_stackoverflow.py), code obtained from [here](https://stackoverflow.com/a/8832212) (accessed on April 11, 2019).
 * [Keras SSD-512 implementation](https://github.com/pierluigiferrari/ssd_keras):
   * models/ssd512.py
   * bounding_box_utils
