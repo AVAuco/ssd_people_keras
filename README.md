@@ -34,7 +34,7 @@ In order to run demo.py:
 
 In order to use convert_ssd_512.py:
 * Python packages: numpy, pandas, keras, scipy.
-* loadmat_stackoverflow.py, code obtained from [here](https://stackoverflow.com/a/8832212)(accessed on April 11, 2019).
+* loadmat_stackoverflow.py, code obtained from [here](https://stackoverflow.com/a/8832212) (accessed on April 11, 2019).
 * [Keras SSD-512 implementation](https://github.com/pierluigiferrari/ssd_keras):
   * models/ssd512.py
   * bounding_box_utils
