@@ -36,7 +36,7 @@ In order to run [demo.py](https://github.com/AVAuco/ssd_people_keras/blob/master
 
 In order to use [convert_ssd_512.py](https://github.com/AVAuco/ssd_people_keras/blob/master/convert_ssd_512.py):
 * Python packages: numpy, pandas, keras, scipy.
-* [loadmat_stackoverflow.py](https://github.com/AVAuco/ssd_people_keras/blob/master/loadmat_stackoverflow.py), code obtained from [here](https://stackoverflow.com/a/8832212) (accessed on April 11, 2019).
+* [loadmat_stackoverflow.py](https://github.com/AVAuco/ssd_people_keras/blob/master/loadmat_stackoverflow.py), code obtained from [here](https://stackoverflow.com/a/8832212) (accessed on april 11, 2019).
 * [Keras SSD implementation](https://github.com/pierluigiferrari/ssd_keras):
   * models/ssd512.py
   * bounding_box_utils
