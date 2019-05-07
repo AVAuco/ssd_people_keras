@@ -27,9 +27,9 @@ This model relies on the Keras implementation of Single-Shot Multibox Detector b
 * Detections using the converted model could not match detections obtained with the original MatConvNet implementation. Adjusting confidence threshold should improve performance.
 * In order to use this library, it may be useful to update your PYTHONPATH. Provided you cloned this repository at ~/libs/ssd_keras:
 
-```
-export PYTHONPATH=$PYTHONPATH:~/libs/ssd_keras/:~/libs/ssd_keras/models/
-```
+  ```
+  export PYTHONPATH=$PYTHONPATH:~/libs/ssd_keras/:~/libs/ssd_keras/models/
+  ```
 
 ## Software requirements
 In order to run [demo.py](https://github.com/AVAuco/ssd_people_keras/blob/master/demo.py):
