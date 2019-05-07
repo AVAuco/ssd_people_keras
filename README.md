@@ -25,6 +25,11 @@ This model relies on the Keras implementation of Single-Shot Multibox Detector b
   ```
 * Script [convert_ssd_512.py](https://github.com/AVAuco/ssd_people_keras/blob/master/convert_ssd_512.py) may be able to convert other SSD-512 models, provided they use the same MatConvNet toolbox used in the [original work](https://github.com/AVAuco/ssd_people). Slight modifications to the script and the layer mapping ([layers.csv](https://github.com/AVAuco/ssd_people_keras/blob/master/layers.csv)) could make possible to convert also SSD-256 models.
 * Detections using the converted model could not match detections obtained with the original MatConvNet implementation. Adjusting confidence threshold should improve performance.
+* In order to use this library, it may be useful to update your PYTHONPATH. Provided you cloned this repository at ~/libs/ssd_keras:
+
+```
+export PYTHONPATH=$PYTHONPATH:~/libs/ssd_keras/:~/libs/ssd_keras/models/
+```
 
 ## Software requirements
 In order to run [demo.py](https://github.com/AVAuco/ssd_people_keras/blob/master/demo.py):
